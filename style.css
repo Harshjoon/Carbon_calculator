@@ -111,4 +111,8 @@ main{
 
 .background-image{
  background-image: url('images/praan-background.png');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+
 }
