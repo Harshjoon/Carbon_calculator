@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+:root {
+  /* dark shades of primary color*/
+    --clr-primary-1: hsl(205, 86%, 17%);
+    --clr-primary-2: hsl(205, 77%, 27%);
+    --clr-primary-3: hsl(205, 72%, 37%);
+    --clr-primary-4: hsl(205, 63%, 48%);
+    /* primary/main color */
+    --clr-primary-5: hsl(205, 78%, 60%);
+    /* lighter shades of primary color */
+    --clr-primary-6: hsl(205, 89%, 70%);
+    --clr-primary-7: hsl(205, 90%, 76%);
+    --clr-primary-8: hsl(205, 86%, 81%);
+    --clr-primary-9: hsl(205, 90%, 88%);
+    --clr-primary-10: hsl(205, 100%, 96%);
+    --clr-grey-1: hsl(209, 61%, 16%);
+    --clr-grey-5: hsl(210, 22%, 49%);
+    --clr-grey-10: hsl(210, 36%, 96%);
+    --clr-white: #fff;
+    --ff-primary: "Roboto", sans-serif;
+    --ff-secondary: "Open Sans",sans-serif;
+    --transition: all 0.3s linear;
+    --clr-black: #222;
+    --radius: 0.25rem;
+    --spacing: 0.01rem;
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    --max-width: 1170px;
+    --fixed-width: 620px;
+}
+
+:after,:before{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{
+ font-family: var(--ff-secondary);
+ background: var(--clr-grey-10);
+ color: var(--clr-grey-1);
+ line-height: 1.5;
+ font-size: 0.875rem;    
+}
+
+.container{
+    text-align: center;
+    justify-content: left;
+    align-content: left;
+    padding: 2rem;
+    border-radius:5px;
+    background-color: #fff;
+    flex: 0 0 80%;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.container-1{
+    text-align: center;
+    justify-content: left;
+    align-content: left;
+    padding: 2rem;
+    border-radius:5px;
+    background-color: rgb(172, 238, 170);
+    flex: 0 0 80%;
+    margin-bottom: 2.5rem;
+}
+
+.container-2{
+    text-align: center;
+    justify-content: left;
+    align-content: left;
+    padding: 2rem;
+    border-radius:5px;
+    background-color: rgb(179, 71, 179);
+    flex: 0 0 80%;
+    margin-bottom: 2.5rem;
+}
+
+.btn{
+    margin: 20px;
+    left: 20px;
+    font-family: var(--ff-primary);
+    min-width: 250px;
+    text-transform: uppercase;
+    background: transparent;
+    /* background: var(--clr-black); */
+    color: var(--clr-black);
+    letter-spacing: var(--spacing);
+    display: inline-block;
+    font-weight: 700;
+    /* transition: var(--transition); */
+    border: 3px solid var(--clr-black);
+    cursor: pointer;
+    box-shadow:  0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: var(--radius);
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+}
+.btn:hover{
+    color: var(--clr-white); 
+    background: var(--clr-black);
+}
+
+.materials{
+    
+    text-align: center;
+    /* justify-content: left; */
+    /* align-content: left; */
+    /* padding: 2rem; */
+    border-radius:5px;
+    background: transparent;
+    /* background-color: rgb(74, 136, 217); */
+    /* flex: 0 0 80%; */
+    /* margin-bottom: 2.5rem; */
+    display: flex;
+    flex-direction: column;
+}
+.materials li {
+    margin: 2px;
+    list-style: none;
+}
+
+.materials li a {
+    /* text-align: Center; */
+    font-family: var(--ff-primary);
+    color: var(--clr-black);
+    letter-spacing: var(--spacing);
+    display: inline-block;
+    font-weight: 700;
+    transition: var(--transition);
+    border: 3px solid var(--clr-black);
+    cursor: pointer;
+    box-shadow:  0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: var(--radius);
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+    min-width: 250px;
+}
+
+.hide {
+    display: none;
+}
+
+.text{
+    margin: 20px;
+    left: 20px;
+    font-family: var(--ff-primary);
+    min-width: 250px;
+    /* text-transform: uppercase; */
+    background: transparent;
+    /* background: var(--clr-black); */
+    color: var(--clr-black);
+    letter-spacing: var(--spacing);
+    display: inline-block;
+    font-weight: 700;
+    /* transition: var(--transition); */
+    border: 3px solid var(--clr-black);
+    cursor: pointer;
+    box-shadow:  0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: var(--radius);
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+}

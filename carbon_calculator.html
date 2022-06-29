@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="carbon_calculator.css">
+ <script defer src="raw_materials.js"></script>
+ <title>Carbon Calculator</title>
+</head>
+<body>
+    <div class="container" >
+        <h1> Supply Chain Emissions </h1>
+        <div class="container-1" >
+            <h1>Raw Materials</h1>
+
+            <button id="raw_materials_button" class="btn" >Please Select Materials</button>
+
+            <div id="raw_materials_list" class="materials">
+                <!-- <li><a href="">Aluminium</a></li>
+                <li><a href="">Steel(Stainless)</a></li>
+                <li><a href="">Steel(Iron)</a></li>
+                <li><a href="">Iron</a></li>
+                <li><a href="">Copper</a></li> -->
+            </div>
+
+            <button id="add_materials_btn" class="hide btn">Add materials</button>
+            <br>
+            <div id="add_div" class="hide" > 
+                <input type="text" name="enter" value="" id="materials_input" class="text" >
+                <!-- <input type="button" value="click" class="btn"> -->
+                <button type="button" id="add_button" class="btn" onclick="save_this()"> Add </button>
+            </div>
+
+            <div class="add_materials" ></div>
+
+        </div>
+        <div class="container-1" >
+            <h1>Processing and Finishing</h1>
+        </div>
+        <div class="container-1" >
+            <h1>Transportation</h1>
+        </div>
+    </div>
+</body>
+</html>
